@@ -6,14 +6,133 @@ Links to the YouTube Videos Credited / Referenced in Order:
 Hackingtons Code School : https://www.youtube.com/watch?v=m8DXAsyaMK0&pp=ygUXaGFja2luZ3RvbnMgQ29kZSBTY2hvb2w%3D
 Abhijay Potluri : https://www.youtube.com/watch?v=SEc0khTZ4e4&list=PLVJIaQIN1-U7R3uJ16FP6xKWFEc6uZRee
 Tech With Tim : https://www.youtube.com/watch?v=qqp6QN20CpE&pp=ygUUdGVjaCB3aXRoIHRpbSBweXRob24%3D
+Idently.io Python in 30 Minutes Turtorial : https://www.youtube.com/watch?v=Ro_MScTDfU4&pp=ygUaaWRlbnRseS5pbyBweXRob24gdHV0b3JpYWw%3D
+
 '''
 
 
 """This Follows Along With The First Video"""
 
-"""This is a Joke / Riddle Machine that pulls Values contained in Variables... You can try it out by changing the Values of the Variables to anything that you want... :)"""
 
 #-----------------------Strings and Variables-----------------------
+'''
+Hello, World...!!!
+
+print("Hello, World...!!!")
+print()
+print("I am going to take over humanity...!!!")
+print("Just kidding, I am totally not a killer robot...!!!")
+
+print("4")
+'''
+'''
+money =100
+print(money)
+
+money = money - 10
+print(money)
+'''
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+
+#-----------------------Keywords-----------------------
+
+#-----------------------These Key Words That Are RESERVED by PYTHON...!!!-----------------------
+
+
+'''
+False           def         if          raise
+
+Name            del         import      return
+
+True            elif        in          try
+
+and             else        is          while
+
+as              except      lambda      with
+
+assert          finally     nonlocal    yield
+
+break           for         not
+
+class           from        or
+
+continue        global      pass
+
+'''
+
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+
+yt_name = "Mr. Beast"
+
+print("The Most Popular YouTuber.")
+print()
+print("The Most Popular YouTuber is:", yt_name)
+print("I don't really like", yt_name, "because everyone is talking about them...")
+
+#---------------------------------------------------------------------
+"""This Area is for the Currency Type Exercise"""
+
+item_1 = ("He-Man")
+item_2 = ("Skeletor")
+item_3 = ("GI Joe")
+item_4 = ("Cobra Commander")
+
+currency_type1 = ("US Dollars")
+currency_type2 = ("Russian Rubles")
+currency_type3 = ("Japanese Yen")
+currency_type4 = ("Chinese_Yuan")
+
+print("The going rate for one", item_1 ,"is going to run you about 5", currency_type1 ,".")
+print ("The", item_2 ,"will run you about 1,500", currency_type2 ,".")
+print("The", item_3, "will run you about 17,500", currency_type3,"." )
+print("And that", item_4, "will be somewhere around 35,000", currency_type4, ".")
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+name = input("What is your name...??? ")
+print(name)
+
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+
+print("We should write a crazy story...!!!")
+print()
+print("Let's start by getting some information from you")
+print()
+
+game = input("What is your favourite Video Game...???")
+adj = input("What does you teachers breath smell like...???")
+place = input("What is your favourite place to go on vacation...???")
+print("Oh my goodness...!!! Teacher Micheal just beat", game,"with only his feet...!!! Too bad they smell like", adj," He should really go to", place, "and buy us some nose plugs...!!!")
+
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+
+"""This Area is for the Ditto Input Exercise"""
+
+game = input("What is your favourite Video Game...??? ")
+colour = input("What is your favourite Colour...??? ")
+food = input("What is your favourite food...??? ")
+
+print("Oh my goshness...!!! I also love the game", game, "and my favourite colour is", colour, "and it actually turns out that my favourite food is also", food, "!!! It's like the craziest thing...!!!")
+
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+
+"""This is a Joke / Riddle Machine that pulls Values contained in Variables... You can try it out by changing the Values of the Variables to anything that you want... :)"""
 
 #-----------------------First, Greet the User-----------------------
 
@@ -27,7 +146,7 @@ print()
 
 #-----------------------Third, Print Their Answer and Change Their Mind-----------------------
 
-print("Did you say", animal_1, "...??? Those things are silly... You're also silly, and apparently your face is silly as well... And since we're on the subject of your late mother, like her late husband, we'll just settle for a cow instead...")
+print("You chose", animal_1, "...??? That's a terrible idea, those aren't funny at all... Let's use cow instead...")
 print()
 
 #-----------------------Fourth, Ask Them a Question-----------------------
@@ -261,10 +380,14 @@ fruit_colours = {}
 "apple   :    red"      #---Notice the "Quotes" Being Open and Closed---
    V      V      V
   Key    Pair  Value
+'''
+  
 
 fruit_colours = {}
+
+
 "apple:red","orange:orange","grape:purple"
-'''
+
 
 #Lists
 #
@@ -426,14 +549,15 @@ if user_choice > "3":
     print("It's an Easy Choice, Even For Someone Like Yourself... 1, 2, or 3")
 
 exit()
-'''
+
+
+
 #-----------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------
-#-----------------------------------------------------------------------------------
+
 
 #----------------Dunder (Double UnderLined) / Magic Methods in Python---------------
 
-'''
 class Counter:
         def __init__(self):
                 self.value = 1
@@ -724,3 +848,184 @@ for number in Countdown(5):
 # __next__(CountDown(5)) -> 4
 # __next__(CountDown(5)) -> 3
 # __next__(CountDown(5)) -> raise StopIteration
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+"""This Follows Along With The Fourth Video From the Time Stamp of: 1:15"""
+
+#---------------------------------String Concatenation------------------------------------
+
+name = 'Bob'
+print('Hello,' + name + '!')
+print('Hello,' + name + '!')
+
+text = 'apple'
+number = 10
+decimal = 10.123
+has_money = True
+coordinates = (2.5, 1.5)
+names = ['Agnetha', 'Bjorn', 'Benny', 'Anni-Frid']
+unoque = {1, 2, 3, 4, 5}
+user = {'Bob': 1, 'James': 2}
+
+number = '100'
+print(10 + str(number))
+print(10 + float(number))
+print(10 + set(number))
+
+number = '123'
+print(float('123.456'))
+
+age: int = 10
+name: str = 'Bob'
+
+print('Name: ' + name + ' Age: ' + str(age))
+
+"""or the better method would be"""
+
+print(f'Name: {name}, Age: {age}')
+
+
+#---------------------------------Functions------------------------------------
+
+def add(a: float, b: float) -> float: 
+    print(f'Adding: {a} + {b}')
+    return a + b
+
+print('add(a: 10, b: 15')
+print('add(a: 15, b: 30')
+
+def greet(name): str, greeting: str = ('Hi')
+print(f'{greeting}, {name}!')
+
+
+def greet(name): str, greeting: str = ('Ciao')
+greet('James')
+greet('Bob')
+
+def func(): 
+    print('Hello')
+
+func()
+func()
+func()
+func()
+
+
+#---------------------------------Loops------------------------------------
+'''
+for i in range(3):
+        print('Hello')
+'''
+
+names: list[str] = ['Agnetha', 'Bjorn', 'Benny', 'Anni-Frid']
+for name in names:
+        print(f'Hello, {name}')
+        print('...')
+
+
+"""This One Will Run an Infinite While Loop Requiring a Force Stop to End...!!!"""
+"""
+while True:
+        print('Hello')
+"""
+
+i: int = 0
+while i < 3:
+        print(i)
+        i += 1
+
+a: int = 1
+b: int = 2
+
+"""Memorise These"""
+
+print(a > b)
+print(a >= b)
+print(a < b)
+print(a <= b)
+print(a == b)
+print(a != b)
+
+
+#---------------------------------ChatBot------------------------------------
+
+user_input: str = input('You: ')
+
+if user_input == 'hello':
+    print('Bot: Hello!')
+elif user_input == 'how are you...???':
+        print('Bot: Good, how about you...???')
+elif user_input == 'bye':
+        print('Bot: Goodbye...!!!')
+else:
+        print('Bot: Sorry, I did not understand that...')
+
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+
+#--------------------------------------Exceptions--------------------------------------
+
+"""This will Force an Exception to Continue Running Past an Error, But Not Best Practice"""
+
+
+a, b = 10, 'fifteen'
+
+try:
+        print(a + b)
+except Exception as e:
+        print(f'Something went wrong: {e}')
+
+
+print('Continuing with the program...')
+
+
+"""Best to Use This Method Instead"""
+
+
+a, b = 10, 'fifteen'
+
+try:
+        print(a + b)
+except TypeError as e:
+        print('Please Enter a Number in the Form of an integer or a float...')    
+
+
+print('Continuing with the program...')
+
+
+#--------------------------------------Imports--------------------------------------
+
+import math
+import math as m
+from math import sqrt, tan
+
+print(math.sqrt(3))
+print(m.sqrt(4))
+print(sqrt(5))
+print(tan(2))
+
+
+#--------------------------------------Final ChatBot--------------------------------------
+
+bot_name: str = 'Bob'
+print(f'Hello! I\m {bot_name}!: How can I assist you today...???')
+          
+while True:
+    user_input: str = input('You: ').lower()
+                            
+    if user_input in ['hi', 'hello']:
+        print(f'{bot_name}: Hi there...!!! How can I help you...???')
+    elif user_input in ['bye', 'see you']:
+        print(f'{bot_name}: Goodbye...!!! Have a great day...!!!')
+    elif user_input in ['add']:
+        print(f'{bot_name}: Sure...!!! Let\'s do some addition...!!! Please enter two numbers... ')
+        try:
+            num1: float = float(input('First number: '))
+            num2: float = float(input('Second number: '))
+            print(f'bot_name): The sum is {num1 + num2}')
+        except ValueError:
+                print(f'{bot_name}: Oops...!!! That doesn\'t seem like a valid number... Try again... ')
+    else:
+        print(f'{bot_name}: I\'m sorry, I don\'t understand that... Please try again... ')
