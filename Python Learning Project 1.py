@@ -7,7 +7,7 @@ Hackingtons Code School : https://www.youtube.com/watch?v=m8DXAsyaMK0&pp=ygUXaGF
 Abhijay Potluri : https://www.youtube.com/watch?v=SEc0khTZ4e4&list=PLVJIaQIN1-U7R3uJ16FP6xKWFEc6uZRee
 Tech With Tim : https://www.youtube.com/watch?v=qqp6QN20CpE&pp=ygUUdGVjaCB3aXRoIHRpbSBweXRob24%3D
 Idently.io Python in 30 Minutes Turtorial : https://www.youtube.com/watch?v=Ro_MScTDfU4&pp=ygUaaWRlbnRseS5pbyBweXRob24gdHV0b3JpYWw%3D
-
+Harvard CS50's Introduction to Programming with Python : https://www.youtube.com/watch?v=nLRL_NcnK-4&pp=ygUTaGFydmFyZCBjczUwIHB5dGhvbtIHCQmyCQGHKiGM7w%3D%3D 
 '''
 
 
@@ -66,7 +66,7 @@ continue        global      pass
 
 #---------------------------------------------------------------------
 #---------------------------------------------------------------------
-
+"""
 
 yt_name = "Mr. Beast"
 
@@ -76,7 +76,8 @@ print("The Most Popular YouTuber is:", yt_name)
 print("I don't really like", yt_name, "because everyone is talking about them...")
 
 #---------------------------------------------------------------------
-"""This Area is for the Currency Type Exercise"""
+
+#---This Area is for the Currency Type Exercise---
 
 item_1 = ("He-Man")
 item_2 = ("Skeletor")
@@ -119,7 +120,7 @@ print("Oh my goodness...!!! Teacher Micheal just beat", game,"with only his feet
 #---------------------------------------------------------------------
 
 
-"""This Area is for the Ditto Input Exercise"""
+#---This Area is for the Ditto Input Exercise---
 
 game = input("What is your favourite Video Game...??? ")
 colour = input("What is your favourite Colour...??? ")
@@ -132,7 +133,7 @@ print("Oh my goshness...!!! I also love the game", game, "and my favourite colou
 #---------------------------------------------------------------------
 
 
-"""This is a Joke / Riddle Machine that pulls Values contained in Variables... You can try it out by changing the Values of the Variables to anything that you want... :)"""
+#---This is a Joke / Riddle Machine that pulls Values contained in Variables... You can try it out by changing the Values of the Variables to anything that you want... :)---
 
 #-----------------------First, Greet the User-----------------------
 
@@ -276,9 +277,8 @@ s1 = 'hello'
 s2 = "hello"
 print(type(s1))
 print(type(s2))
-s3 = """hello
-my name is (name)...!!! """
-print(s3)
+s3 = "hello my name is (name)...!!! """
+print('s3')
 
 #-----------------------Casting Floats into Integers-----------------------
 
@@ -322,11 +322,11 @@ print( 11 < 6)
 '''
 """list of fruits"""
 
-apple
-banana
-orange
-pear
-grapes
+#apple
+#banana
+#orange
+#pear
+#grapes
 
 #-----------------------Remember: Indexes always have square brackets-----------------------
 
@@ -344,9 +344,9 @@ print(fruits[4])
 
 """Tuples"""
 
-Ordered
-Duplicates
-Unchangeable
+#Ordered
+#Duplicates
+#Unchangeable
 
 #These are almost like an Ordered List, in that they are both Ordered and can have Duplicates, however they are Unchangeable, so once they're assigned to an Indexed Location Value, that Value remains the same forever...
 
@@ -354,9 +354,9 @@ fruits = ("Apple", "Pears")
 
 """Sets"""
 
-No_Duplicates_Allowed
-Unchangeable
-Unordered
+#No_Duplicates_Allowed
+#Unchangeable
+#Unordered
 
 #These only share a commonality with Ordered Tuples in that they are both Unchangeable...
 
@@ -494,8 +494,8 @@ Have Fun...!!!"
       **********************************************""")
 
 options = ["Rock", "Paper", "Scissors"]
-user_choice = input("What is your choice...??? Rock, Paper or Scissors...???    :")
-computer_choice = choice(options)
+user_choice = input("What is your choice...??? Rock, Paper or Scissors...??? : ")
+computer_choice = user_choice("options")
 print("Computer Choice Is: " , computer_choice)
 
 if (user_choice == "Rock" and computer_choice == "Scissors") or (user_choice == "Scissors" and computer_choice == "Paper") or (user_choice == "Paper" and computer_choice == "Rock") :
@@ -927,8 +927,10 @@ for name in names:
 
 """This One Will Run an Infinite While Loop Requiring a Force Stop to End...!!!"""
 """
+'''
 while True:
         print('Hello')
+'''
 """
 
 i: int = 0
@@ -1029,3 +1031,447 @@ while True:
                 print(f'{bot_name}: Oops...!!! That doesn\'t seem like a valid number... Try again... ')
     else:
         print(f'{bot_name}: I\'m sorry, I don\'t understand that... Please try again... ')
+
+
+#--------------------------------------------------------------------------------------------------------
+
+#Harvard CS50's Introduction to Programming with Python
+
+# functions
+
+#In Python, a function is a named block of reusable code designed to perform a specific task or set of related tasks. Functions are a fundamental concept in programming, promoting code organization, reusability, and modularity. 
+
+# arguments
+
+#In Python, an argument is the actual value or data passed into a function when it is called. When a function is defined, it specifies parameters, which are placeholders or variables that will receive the values passed as arguments during the function call.
+
+# side Effects 
+
+#In Python, a side effect refers to any observable change or interaction with the program's state that occurs outside of a function's local scope, beyond its primary purpose of computing and returning a value. Essentially, when a function does something other than just calculating and returning a result based on its inputs, it's exhibiting a side effect.
+
+# bugs
+
+#In Python, as in other programming languages, a "bug" refers to an error, flaw, or fault in the code that causes the program to behave unexpectedly or incorrectly. Bugs can lead to various issues, from minor inconveniences like incorrect output to more severe problems such as program crashes or security vulnerabilities.
+
+# return Values
+
+#In Python, a return value is the data or object that a function sends back to the part of the code that called it upon completion of its execution. The return statement is used to achieve this.
+
+# variables
+
+#In Python, variables are defined through assignment, rather than explicit declaration. This means a variable is created the moment a value is first assigned to it using the assignment operator (=). Python is dynamically typed, so you do not need to specify the data type of a variable; the interpreter automatically infers it based on the assigned value.
+
+# comments
+
+#In Python, a comment is a line or block of text within a program that is ignored by the Python interpreter during execution. Its primary purpose is to provide explanations, context, or documentation for the code, making it more understandable for developers.
+
+# pseudocode
+
+#Pseudocode is a high-level, plain-language description of the steps or logic of an algorithm or program. It is not actual code in any specific programming language but rather a way to outline the solution before writing the actual code.
+
+# str (String)
+
+#In Python, a string is a sequence of characters used to represent text. Strings are a fundamental data type for handling textual information within programs.
+
+# int (Integer)
+
+#In Python, int refers to the integer data type, which represents whole numbers (positive, negative, or zero) without any fractional or decimal components. Unlike some other programming languages, Python's integers have arbitrary precision, meaning their size is only limited by available memory, not by a fixed number of bits.
+
+# float
+
+#In Python, "float mode" refers to finding the statistical mode (the most frequently occurring value) in a dataset containing floating-point numbers. There is no single, built-in function called float_mode(). Instead, you can find the mode of floating-point data using the statistics module or by manually counting values.
+
+# def
+
+#In Python, def is a keyword used to define a function. It signifies the beginning of a function definition, allowing you to create reusable blocks of code that perform specific tasks.
+
+# if
+
+#In Python, an if statement is a fundamental control flow construct that allows for conditional execution of code. It enables a program to make decisions and execute specific blocks of code only when a specified condition evaluates to True.
+
+# elif
+
+#In Python, the elif statement is a keyword that stands for "else if". It is used in conditional statements to check for additional conditions sequentially after an initial if statement.
+
+# else
+
+#In Python, the else statement is a control flow construct that works in conjunction with an if (and optionally elif) statement to define an alternative block of code to be executed when the preceding conditions are not met.
+
+# or
+
+#In Python, the or statement, or more accurately, the or operator, is a logical operator that evaluates two or more conditions and returns True if at least one of the conditions is True. It returns False only if all conditions are False.
+
+# and
+
+#In Python, and is a logical operator used to combine two or more conditional expressions. It evaluates to True only if all the expressions it connects are True. If even one of the connected expressions is False, the entire and expression evaluates to False.
+
+# bool
+
+#In Python, bool is a built-in data type that represents Boolean values. It can only have two possible values: True or False. These values are fundamental for controlling program flow, making decisions in code, and evaluating conditions.
+
+# match
+
+#In Python, the match statement, introduced in Python 3.10, is a control flow statement used for structural pattern matching. It allows you to compare a subject value against a series of patterns and execute a block of code associated with the first pattern that matches.
+
+# scope
+
+#In Python, scope refers to the region of a program where a variable or name is accessible and visible. It defines the context in which the Python interpreter can locate and use a particular name (which can refer to a variable, function, class, etc.).
+
+# conditionals
+
+#In Python, conditionals are programming constructs that allow a program to make decisions and execute different blocks of code based on whether a certain condition evaluates to True or False. They are fundamental for controlling the flow of a program, enabling it to respond dynamically to varying inputs or states.
+
+# parameters
+
+#In Python, parameters are named variables listed in a function's definition that serve as placeholders for the values (arguments) that will be passed into the function when it is called. They define the inputs a function expects to receive to perform its operations.
+
+# loops
+
+#In Python, loops are programming constructs that allow a block of code to be executed repeatedly. They are fundamental for automating repetitive tasks and iterating over collections of data.
+
+# while loops
+
+#In Python, a while loop is a control flow statement that repeatedly executes a block of code as long as a specified condition remains true. The loop continues to iterate, checking the condition before each execution of the code block, and terminates when the condition evaluates to false.
+
+# for loops
+
+#A for loop in Python is a control flow statement used for iteration, allowing a block of code to be executed repeatedly for each item in a sequence. It is a "definite loop," meaning it runs a known number of times, typically once for each element in an iterable object.
+
+# list
+
+#In Python, a list is a fundamental, versatile, and widely used data structure that represents an ordered, mutable collection of items.
+
+# len
+
+#The len() function in Python is a built-in function used to determine the length or number of items in an object.
+
+# dict
+
+#In Python, a dict (short for dictionary) is a built-in data structure that stores data in key-value pairs. It is a mutable, unordered collection, meaning its contents can be changed after creation, and the order of elements is not guaranteed (though in recent Python versions, insertion order is preserved).
+
+# None
+
+#In Python, None is a special constant that represents the absence of a value. It is often used to indicate that a variable, function, or object does not currently hold any meaningful data.
+
+# interactive Mode
+
+#Python's interactive mode refers to a live environment where users can execute Python commands one line at a time and receive immediate feedback. It is often referred to as a REPL (Read-Eval-Print Loop) because it continuously reads user input, evaluates it, prints the result (or any errors), and then loops back to read the next input.
+
+#------------------------------------------------------------------------
+
+#Ask user for their name
+name = input("What's your name...??? ").strip().title() 
+
+#Remove whitespace from str
+name = name.strip()
+
+#Capitalize user's name
+name = name.capitalize()
+
+#Capitalize every first letter of any string
+name = name.title()
+
+#Split user's name into first name and last name
+first, last = name.split(" ")
+
+#---------------------------------------------------------
+
+#Ask User for their name
+name = input("What's your name...??? ")
+
+#Say hello to user
+print(f"hello, {name}")
+
+#---------------------------------------------------------
+
+#---Calculator---
+
+x = float(input("What's x? "))
+
+y = float(input("What's y? "))
+
+print(x + y)
+
+#or this, however it isn't as aesthetically pleasing
+
+print(int(input("What's x?")) + int(input("What's y? ")))
+
+#----------------------------------------------------------
+
+round(number[, digits])
+
+#----------------------------------------------------------
+
+x = float(input("What's x?"))
+y = float(input("What's y?"))
+
+z = x / y
+
+print(f"{z:.2f}")
+
+#----------------------------------------------------------
+
+def main():
+        x = int(input("What's x? "))
+        print("x squared is", square(x))
+
+
+def square(n):
+        return pow(n, 2)
+
+
+main()
+
+#----------------------------------------------------------
+
+# Ask User for Thier Name
+
+def main()
+        name = input("What is your Name...??? ")
+        hello(name)
+
+
+def hello(to="World"):
+        print("Hello,", to)
+        
+        
+main()
+
+#----------------------------------------------------------
+
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y:
+        print("x is less than y.")
+elif x > y:
+        print("x is greater than y.")
+else:
+        print("x is equal to y.")
+
+#----------------------------------------------------------
+
+x = int(input("What's x? "))
+y = int(input("What's y "))
+
+if x < y or x > y:   #--- or try: if x != y: ---to further simplify ---
+        print("x is not equal to y.")
+else:
+        print("x is equal to y.")
+
+#----------------------------------------------------------
+
+score = int(input("Score: "))
+
+if score >= 90:
+        print("Grade: A")
+elif score >=80:
+        print("Grade: B")
+elif score >= 70:
+        print("Grade: C")
+elif score >=60:
+        print("Grade: D")
+else:
+        print("Grade: F")
+
+#----------------------------------------------------------
+
+ x = int(input("What's x?"))
+
+ if x % 2 == 0:
+        print("even")
+else:
+        print("odd")
+
+#----------------------------------------------------------
+
+def main():
+        x = int(input("What's x? "))
+        if is_even(x):
+                print("Even")        
+        else:
+                print("Odd")
+
+def is_even(n):
+        return n % 2 == 0
+
+main()
+
+#----------------------------------------------------------
+
+name = input("What's your name...??? ")
+
+if name == "Harry":
+        print("Gryffindor")
+elif name == "Hermione":
+        print("Gryffindor")
+elif name == "Ron":
+        print("Gryffindor")
+elif name == "Draco":
+        print("Slytherin")
+else:
+        print("Who...??? ")
+
+#----------------------------------------------------------
+
+name = input("What's your name...??? ")
+if name == "Harry" or name == "Hermoine" or name == "Ron":
+        print("Gryffindor")
+elif name == "Draco":
+        print("Slytherin")
+else:
+        print("Who...???")
+
+#----------------------------------------------------------
+
+name = input("What's your name...??? ")
+
+match name:
+        case "Harry" | "Hermione" | "Ron":
+                print("Gryffindor")
+        case "Draco":
+                print(Slytherin)
+        case _:
+                print("Who...??? ")
+
+#----------------------------------------------------------
+
+print("Meow")
+print("Meow")
+print("Meow")
+
+#----------------------------------------------------------
+
+i = 3
+while i != 0:
+        print("Meow")
+        i = i - 1
+
+#------------------------- or ---------------------------------
+
+i = 1
+while 1 <= 3:
+        print("Meow")
+        i = i + 1
+
+#------------------------- or ---------------------------------
+
+i = 0
+while 1 < 3:
+        print("Meow")
+        i += 1
+
+#------------------------- or ---------------------------------
+
+for _ in range(3):
+        print("Meow")
+
+#------------------------- or ---------------------------------
+
+print("meow\n" * 3, end="")
+
+#------------------------- or ---------------------------------
+
+while True:
+        n = int(input("What's n?"))
+        if n > 0:
+                break
+
+for _ in range(n):
+        print("Meow")
+
+#------------------------- or ---------------------------------
+
+def main():
+        number = get_number()
+        meow(number)
+
+
+def get_number():
+        while True:
+                n = int(input("What's n? "))
+                if n > 0:
+                        break
+        return n
+
+
+def meow(n):
+
+#----------------------------------------------------------
+
+students = ["Hermione", "Harry", "Ron"]
+
+for i in range(len(students)):
+        print(i + 1, students[i])
+
+#----------------------------------------------------------
+
+students = {
+        "Hermione": "Gryffindor", 
+        "Harry": "Gryffindor", 
+        "Ron": "Gryffindor"
+        "Draco": "Slytherin",
+}
+
+for student in students:
+        print(student, students[student], sep=", ")
+
+#----------------------------------------------------------
+
+students  = [
+        {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
+        {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
+        {"name": "Ron", "house": "Gryffindor", "patronus": "Jack Russell Terrier"},
+        {"name": "Draco", "house": "Slytherin", "patronus": None}
+]
+
+for student in students:
+        print(student["name"], student["house"], student["patronus"])
+
+#----------------------------------------------------------
+
+for _ in range(3):
+        print("#")
+
+#----------------------------------------------------------
+
+def main():
+        print_column(3)
+
+
+def print_column(height):
+        for _ in range(height):   #--- or try: print("#\n" * height, end="") ---
+                print("#")
+
+
+main()
+
+#----------------------------------------------------------
+
+def main():
+        print_row(4)
+
+def print_row(width):
+        print("?" * width)
+
+
+main()
+
+#----------------------------------------------------------
+
+def main():
+        print_square(3)
+
+
+def print_square(size):
+        for i in range(size):
+                print_row(size)
+
+def print_row(width):
+        print("#" * width)
+        
+
+main()
+
+
+
